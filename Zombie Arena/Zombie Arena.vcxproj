@@ -144,6 +144,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Zombie Arena.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -56,6 +56,9 @@ public:
 	// Handle the player getting hit by a zombie
 	bool hit(Time timeHit);
 
+	// How long ago was the player last hit
+	Time getLastHitTime();
+
 	// Where is the player
 	FloatRect getPosition();
 
