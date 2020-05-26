@@ -1,0 +1,41 @@
+﻿  Player.cpp
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(6,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(7,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(22,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(23,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(43,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(44,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(158,32): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(163,31): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(168,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(173,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(177,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(187,31): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(193,36): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Zombie Arena.cpp
+  Generating Code...
+  Zombie Arena.vcxproj -> D:\VS Projects\Zombie-Arena\Zombie Arena\Debug\Zombie Arena.exe
