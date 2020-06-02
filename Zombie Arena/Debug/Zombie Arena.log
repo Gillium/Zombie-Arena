@@ -1,22 +1,84 @@
-﻿  Zombie Arena.cpp
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(19,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+﻿  CreateBackground.cpp
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(29,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(21,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(29,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(23,56): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(31,78): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(23,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(31,63): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(33,92): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(33,63): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(35,80): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(35,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(57,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(59,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(61,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\CreateBackground.cpp(63,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Zombie Arena.cpp
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(20,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(22,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(24,56): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(24,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating Code...
   Zombie Arena.vcxproj -> D:\VS Projects\Zombie-Arena\Zombie Arena\Debug\Zombie Arena.exe
