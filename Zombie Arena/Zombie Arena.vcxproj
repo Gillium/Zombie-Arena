@@ -148,6 +148,7 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="TextureHolder.cpp" />
     <ClCompile Include="Zombie Arena.cpp" />
+    <ClCompile Include="Zombie.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h" />
