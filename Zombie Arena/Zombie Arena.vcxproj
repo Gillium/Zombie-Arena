@@ -152,6 +152,7 @@
   <ItemGroup>
     <ClInclude Include="Player.h" />
     <ClInclude Include="TextureHolder.h" />
+    <ClInclude Include="Zombie.h" />
     <ClInclude Include="ZombieArena.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
