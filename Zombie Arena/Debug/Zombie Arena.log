@@ -1,5 +1,4 @@
-﻿  Bullet.cpp
-  Zombie Arena.cpp
+﻿  Zombie Arena.cpp
 D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(25,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
@@ -20,5 +19,4 @@ D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(29,42): warning C4244:
           [
               T=float
           ]
-  Generating Code...
   Zombie Arena.vcxproj -> D:\VS Projects\Zombie-Arena\Zombie Arena\Debug\Zombie Arena.exe
