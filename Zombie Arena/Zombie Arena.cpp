@@ -175,6 +175,27 @@ int main()
 			{
 				player.stopRight();
 			}
+
+			// Fire a bullet
+			if (Mouse::isButtonPressed(sf::Mouse::Left))
+			{
+				if (gameTimeTotal.asMilliseconds() - lastPressed.asMilliseconds() > 1000 / fireRate && bulletsInClip > 0)
+				{
+					// Pass the centre of the player and the centre of the cross-hair to the shoot function
+					bullets[currentBullet].shoot(player.getCenter().x, player.getCenter().y,
+						mouseWorldPosition.x, mouseWorldPosition.y);
+
+					currentBullet++;
+					if (currentBullet > 99)
+					{
+						currentBullet = 0;
+					}
+					lastPressed = gameTimeTotal;
+
+					bulletsInClip--;
+				}
+			}// End fire a bullet
+
 		}// End WASD while playing
 
 		// Handle the LEVELING up state
