@@ -1,58 +1,21 @@
-﻿  Player.cpp
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(7,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(8,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(22,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(23,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(43,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(44,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(158,32): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(163,31): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(168,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(173,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(177,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(187,31): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-D:\VS Projects\Zombie-Arena\Zombie Arena\Player.cpp(193,36): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+﻿  Bullet.cpp
   Zombie Arena.cpp
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(24,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(25,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(26,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(27,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(28,56): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(29,56): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(28,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(29,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float

@@ -303,6 +303,16 @@ int main()
 					zombies[i].update(dt.asSeconds(), playerPosition);
 				}
 			}
+
+			// Update any bullets that are in-flight
+			for (int i = 0; i < 100; i++)
+			{
+				if (bullets[i].isInFlight())
+				{
+					bullets[i].update(dtAsSeconds);
+				}
+			}
+
 		}// End updating the scene
 
 		/*
@@ -326,6 +336,14 @@ int main()
 			for (int i = 0; i < numZombies; i++)
 			{
 				window.draw(zombies[i].getSprite());
+			}
+
+			for (int i = 0; i < 100; i++)
+			{
+				if (bullets[i].isInFlight())
+				{
+					window.draw(bullets[i].getShape());
+				}
 			}
 
 			// Draw the player
