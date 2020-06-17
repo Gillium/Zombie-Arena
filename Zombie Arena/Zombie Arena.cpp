@@ -377,40 +377,55 @@ int main()
 			// Handle the player LEVELING up
 			if (event.key.code == Keyboard::Num1)
 			{
+				// Increase fire rate
+				fireRate++;
 				state = State::PLAYING;
 			}
 
 			if (event.key.code == Keyboard::Num2)
 			{
+				// Increase clip size
+				clipSize += clipSize;
 				state = State::PLAYING;
 			}
 
 			if (event.key.code == Keyboard::Num3)
 			{
+				// Increase health
+				player.upgradeHealth();
 				state = State::PLAYING;
 			}
 
 			if (event.key.code == Keyboard::Num4)
 			{
+				// Increase speed
+				player.upgradeSpeed();
 				state = State::PLAYING;
 			}
 
 			if (event.key.code == Keyboard::Num5)
 			{
+				// Upgrade pickup
+				healthPickup.upgrade();
 				state = State::PLAYING;
 			}
 
 			if (event.key.code == Keyboard::Num6)
 			{
+				// Upgrade pickup
+				ammoPickup.upgrade();
 				state = State::PLAYING;
 			}
 
 			if (state == State::PLAYING)
 			{
+				// Increase the wave number
+				wave++;
+
 				// Prepare the level
 				// We will modify the next two lines later
-				arena.width = 500;
-				arena.height = 500;
+				arena.width = 500 * wave;
+				arena.height = 500 * wave;
 				arena.left = 0;
 				arena.top = 0;
 
@@ -428,12 +443,15 @@ int main()
 				ammoPickup.setArena(arena);
 
 				// Create a horde of zombies
-				numZombies = 10;
+				numZombies = 5 * wave;
 
 				// Delete the previously allocated memory (if it exists)
 				delete[] zombies;
 				zombies = createHorde(numZombies, arena);
 				numZombiesAlive = numZombies;
+
+				// Play the powerup sound
+				powerup.play();
 
 				// Reset the clock so there isn't a frame jump
 				clock.restart();
