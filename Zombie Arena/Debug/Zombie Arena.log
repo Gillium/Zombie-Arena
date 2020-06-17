@@ -1,25 +1,25 @@
 ﻿  Zombie Arena.cpp
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(28,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(29,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(30,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(31,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(32,56): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(33,56): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(32,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(33,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
-D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(528,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\VS Projects\Zombie-Arena\Zombie Arena\Zombie Arena.cpp(601,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
